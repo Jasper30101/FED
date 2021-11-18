@@ -231,7 +231,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. https://www.techonthenet.com/html/elements/address_tag.php#:~:text=The%20HTML%20element%20is,ancestor%20in%20HTML5.
+Voor de schets om te kijken welke elementen ik moet gebruiken heb ik de bovenstaande bron gebruikt.
 2. bron 2
 3. ...
 
