@@ -233,8 +233,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. https://codepen.io/mutedblues/pen/MmPNPG?editors=1100
+2. https://nekocalc.com/px-to-em-converter
 3. ...
 
 </details>
