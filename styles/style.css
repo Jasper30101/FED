@@ -1,5 +1,20 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  font-family: roboto condensed,sans-serif;
 }
 
+.logo {
+  width: 1em;
+}
+
+
+section {
+  width: 365px;
+  height: 350px;
+}
+
+p {
+  color: red;
+
+}
