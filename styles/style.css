@@ -2,19 +2,325 @@
 *, *::after, *::before {
   box-sizing:border-box;  
   font-family: roboto condensed,sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
-.logo {
-  width: 1em;
+
+body {
+  background-color: #f4f4f4;
+}
+
+section:first-of-type {
+  padding-top: 5em;
+  margin: auto;
 }
 
 
 section {
-  width: 365px;
-  height: 350px;
+  max-width: 70em;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.next_race {
+  max-width: 100%;
+  background: rgba(31,32,36,1);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.next_race h2 {
+  color: white;
+  font-size: 0.75em;
+  text-transform: uppercase;
+}
+
+.next_race .titel {
+  color: white;
+  font-size: 2.2em;
+}
+
+.next_race img {
+  max-height: 5em;
+  padding-right: 1em;
+}
+
+.next_race .timetable {
+  display: flex;
+  flex-direction: row;
+}
+
+
+table, th, td {
+  padding: 0.25em;
+  color: #dfdfdf;
+  background-color: #3a3b3e;
+  margin-bottom: 1em;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.next_race .aftellen_tot_race h2 {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.next_race .aftellen_tot_race h2:nth-of-type(2) {
+  font-size: 12px;
+  background-color: white;
+  color: black;
+}
+
+.next_race .aftellen_tot_race h2:nth-of-type(3) {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #a7a8a9;
 }
 
 p {
   color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h2 {
+  justify-content: end;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 8px 0 8px;
+}
+
+
+.grote_foto {
+  width: 100%;
+}
+
+.kleine_foto {
+  width: 100%;
+  padding-right: 1em;
+}
+
+article {
+  padding: 10px;
+  max-width: 25em;
+  border: solid 1px #c9cacb;
+  background-color: white;
+  margin: 0em 1em 1em 1em;
+}
+
+
+.a_trending {
+  display:grid;
+  max-height: 10em;
+  grid-template-columns: 30% 70%;
+  padding: 10px;
+  max-width: 25em;
+  border: solid 1px #c9cacb;
+  background-color: white;
+  margin: 0em 1em 1em 1em;
+}
+
+.titel_pagina {
+  border-top: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:start ;
+}
+
+
+.titel_pagina {
+  padding-left: 1em;
+  width: 100%;
+  border-top: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.titel_section_border_bottom {
+  max-width: 70em;
+  margin: auto;
+  border-bottom: solid 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #f4f4f4;
+}
+
+a {
+  color: #000;
+}
+
+/* header */
+
+.header {
+  background: rgba(31,32,36,1);
+  display: block;
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  border-bottom: solid 5px #434447;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.header li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  max-width: 10.938em;
+}
+
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: white;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: white;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 48em = 768px */
+
+@media (min-width: 68.75em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 16px 7px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+.disabletekst {
+  display: none;
+}
+
+@media (min-width: 68.75em) {
+  .disabletekst {
+    display: block;
+  }
+}
+
+@media (max-width: 43em) {
+  .aftellen_tot_race {
+    display: none;
+  }
+}
+
+@media (max-width: 63em) {
+  .track_image {
+    display: none;
+  }
+}
+
+@media (max-width: 32em) {
+  .next_race {
+    flex-wrap: nowrap;
+  }
+}
 
 }
