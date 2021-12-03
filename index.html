@@ -15,10 +15,12 @@
 
 <body>
 
-<header>
+
+<header class="header">
 	<img src="images/gpfans_logo.jpeg" alt="gpfans_logo" class="logo">
-		<nav>
-			<ul>
+	<input class="menu-btn" type="checkbox" id="menu-btn" />
+	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+			<ul class="menu">
 				<li><a href="#">Nieuws</a></li>
 				<li><a href="#">Video's</a></li>
 				<li><a href="#">Originals</a></li>
@@ -27,43 +29,94 @@
 				<li><a href="#">F1 Stand</a></li>
 				<li><a href="#">F1 Tickets</a></li>
 			</ul>
-		</nav>
-	<h2>Volgende race | <time datetime="2021-11-19">19-21 nov</time></h2>	
-</header>
+	<!-- <h2>Volgende race | <time datetime="2021-11-19">19-21 nov</time></h2>	-->
 
+
+</header>
 <main>
+
+	<section class="next_race">
+		<div>
+			<h2>Volgende race | 03 - 05 december</h2>
+			<h2 class="titel">Saudi Arabia</h2>
+		</div>
+
+		<div class="aftellen_tot_race">
+			<h2>Aftellen tot race</h2>
+			<h2>03:02:22:49</h2>
+			<h2>Dagen Uren Mins Secs</h2>
+		</div>
+
+		<div class="timetable">
+			<img src="images/track.png" alt="track" class="track_image">
+			<table>
+				<tr>
+					<th>Timetable</th>
+				</tr>
+				<tr>
+				<th>03-12</th>
+				<th>Training 1/3</th>
+				<th>14:30</th>
+				</tr>
+				<tr>
+					<th>04-12</th>
+					<th>Kwalificatie</th>
+					<th>18:00</th>
+				</tr>
+				<tr>
+					<th>05-12</th>
+					<th>Race</th>
+					<th>18:30</th>
+				</tr>  
+			</table>
+		</div>
+
+	</section>
+
+
 	<section> <!-- Eerste twee grote blokken -->
+
+		<h2 class="titel_pagina">F1 Nieuws</h2>
+
 		<article>
-			<img src="images/vries.jpg" alt="foto nyck de vries">
+			<img src="images/vries.jpg" alt="foto nyck de vries" class="grote_foto">
 				<p>de vries naar indycar?</p> <!-- uppercase en rood maken in CSS -->
 				<h3>De Vries gaat in december testen in de IndyCar: "Hij is echt een groot talent, een rockster"</h3>
-			<img src="images/clock.svg" alt="icoon tijd" width="150px" height="150px">	
+			<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">	
 		</article>
 
 		<article>
-			<img src="images/horner.jpg" alt="horner">
+			<img src="images/horner.jpg" alt="horner" class="grote_foto">
 			<p>Titelstrijd</p> <!-- uppercase en rood maken in CSS -->
 			<h3>Horner over mogelijk titelwinst: “Zou de grootste prestatie ooit van ons zijn”</h3>
-		<img src="images/clock.svg" alt="icoon tijd" width="150px" height="150px">	
+		<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">	
 		</article>
 
 	</section>
+
 
 
 
 	<section>
-		<h2>Trending</h2>
+		<h2 class="titel_pagina">Trending</h2>
+			<a class="a_trending">
+				<img src="images/vries.jpg" alt="foto nyck de vries" class="kleine_foto">
+				<h3>Honda verwacht geen motorwissels voor Verstappen meer dit seizoen.</h3>
+			</a>
 
-			<article>
+			<a class="a_trending">
+				<img src="images/vries.jpg" alt="foto nyck de vries" class="kleine_foto">
+				<div>
+					<p>Artikel 2</p> <!-- uppercase en rood maken in CSS -->
+					<h3>Honda verwacht geen motorwissels voor Verstappen meer dit seizoen.</h3>
+				</div>
 
-			</article>
-
-			<article>
-
-			</article>
-		<h2><b>Social</b>posts</h2>	
+			</a>
 	</section>
 
+	<h2 class="titel_section_border_bottom"><b>Social</b>posts</h2>	
+
+	<h1 class="disabletekst">tekts</h1>
 </main>
 
 <footer>
