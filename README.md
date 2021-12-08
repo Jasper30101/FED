@@ -234,6 +234,7 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 1. https://www.w3schools.com/howto/howto_js_countdown.asp
 2. https://codepen.io/mutedblues/pen/MmPNPG?editors=1100
 2. https://nekocalc.com/px-to-em-converter
-3. ...
+3. https://www.techonthenet.com/html/elements/address_tag.php#:~:text=The%20HTML%20element%20is,ancestor%20in%20HTML5.
+Voor de schets om te kijken welke elementen ik moet gebruiken heb ik de bovenstaande bron gebruikt.
 
 </details>
