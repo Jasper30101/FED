@@ -76,6 +76,7 @@ Nieuws
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
+Begonnen met het overschrijven van de HTML en nog geen CSS. Eerst begonnen met het skelet van de site op te stellen.
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
@@ -92,10 +93,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Tabel namaken is een erg lastig punt.
+- De tijd sinds dat een artikel is geplaats is lastig om na te maken.
 
 </details>
 
@@ -109,7 +108,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Verder gegaan met het maken van de site en het nu ook invullen van de eerste paar artikels. Afbeeldingen toegevoegd en ook echte tekst toegevoegd.
 
 
 ### Agenda voor meeting
