@@ -206,6 +206,18 @@ Website afgerond en de CSS perfect gemaakt. Veel classes vervangen door nth of t
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
+ <img src="images/eindresultaat1.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat2.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat3.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat4.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat5.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat6.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat7.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat8.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat9.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat10.png" alt="Foto eindresultaat">
+  <img src="images/eindresultaat11.png" alt="Foto eindresultaat">
+ 
 
 </details>
 
