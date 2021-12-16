@@ -58,11 +58,6 @@ Nieuws
 ### de hele pagina: 
 <img src="images/FED.jpg" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -91,7 +86,6 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Tabel namaken is een erg lastig punt.
 - De tijd sinds dat een artikel is geplaats is lastig om na te maken.
@@ -122,7 +116,6 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Veel Classes gebruikt. Meer werken met first of type en nth of type etc.
 - Paar slordigheidsfoutjes. 
@@ -140,34 +133,31 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken na test in 8e voortgang</summary>
 
 ### Bevindingen
-Lijst met je bevindingen die in de test naar voren kwamen:
+
+Deze week (LES) was ik helaas ziek, dus kon niet aanwezig zijn bij de les. De tijd van de les heb ik echter wel gebruikt om thuis verder te gaan met mijn website en om de contrasten te analyseren. Zie hieronder de bevindingen.
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Perfect contrast.
  
  <img src="images/contrast1.png" alt="Contrast analyser nummer 1">
 
 
 #### Titel tweede bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+Perfect contrast.
 
 <img src="images/contrast2.png" alt="Contrast analyser nummer 2">
  
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Perfect contrast.
 
 <img src="images/contrast3.png" alt="Contrast analyser nummer 3">
- 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 </details>
 
@@ -181,7 +171,6 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Alles ging tot nu nog steeds goed, website krijgt steeds meer vorm en alles wordt meer responsive. Heb gewerkt met @media en max width etc om zo op de tweede pagina een afbeelding wel en niet te laten zien aan de hand van de groote van het scherm in EM. 
 
 
@@ -196,7 +185,6 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Paar vragen gehad voor de student assistenten, zoals de JS die op 1 pagina niet nodig is. Hier geen antwoord op gekregen, Robert gevraagd kreeg antwoord maar nog niet duidelijk genoeg om het op te lossen. Voor nu de JS link even weg gehaald uit de HTML.
 - Goede feedback ontvangen van de Student Assistenten dus daar mee aan de slag gegaan. Bijvoorbeeld dat een afbeelding niet helemaal perfect mee schaalt. 
@@ -213,7 +201,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Website afgerond en de CSS perfect gemaakt. Veel classes vervangen door nth of type etc. Alles perfect gemaakt en af gemaakt. Puntjes op de I.
 
 ### Screenshot(s)
 
@@ -233,7 +221,7 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://www.w3schools.com/howto/howto_js_countdown.asp
-2. https://codepen.io/mutedblues/pen/MmPNPG?editors=1100
+2. https://codepen.io/mutedblues/pen/MmPNPG?editors=1100 (MENU) 
 2. https://nekocalc.com/px-to-em-converter
 3. https://www.techonthenet.com/html/elements/address_tag.php#:~:text=The%20HTML%20element%20is,ancestor%20in%20HTML5.
 Voor de schets om te kijken welke elementen ik moet gebruiken heb ik de bovenstaande bron gebruikt.
