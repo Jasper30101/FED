@@ -126,8 +126,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - Veel Classes gebruikt. Meer werken met first of type en nth of type etc.
 - Paar slordigheidsfoutjes. 
-- nog een punt
-- ...
+
 
 </details>
 
@@ -179,6 +178,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Alles ging tot nu nog steeds goed, website krijgt steeds meer vorm en alles wordt meer responsive. Heb gewerkt met @media en max width etc om zo op de tweede pagina een afbeelding wel en niet te laten zien aan de hand van de groote van het scherm in EM. 
 
 
 ### Agenda voor meeting
@@ -194,10 +194,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Paar vragen gehad voor de student assistenten, zoals de JS die op 1 pagina niet nodig is. Hier geen antwoord op gekregen, Robert gevraagd kreeg antwoord maar nog niet duidelijk genoeg om het op te lossen. Voor nu de JS link even weg gehaald uit de HTML.
+- Goede feedback ontvangen van de Student Assistenten dus daar mee aan de slag gegaan. Bijvoorbeeld dat een afbeelding niet helemaal perfect mee schaalt. 
 
 </details>
 
