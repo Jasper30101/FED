@@ -124,8 +124,8 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Veel Classes gebruikt. Meer werken met first of type en nth of type etc.
+- Paar slordigheidsfoutjes. 
 - nog een punt
 - ...
 
