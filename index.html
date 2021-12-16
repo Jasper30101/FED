@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
@@ -14,90 +14,92 @@
 <body>
 
 
-<header>
-	<img src="images/gpfans_logo.jpeg" alt="gpfans_logo" class="logo" >
-	<input class="menu-btn" type="checkbox" id="menu-btn" />
-	<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-			<ul class="menu">
-				<li><a href="#">Nieuws</a></li>
-				<li><a href="#">Video's</a></li>
-				<li><a href="#">Originals</a></li>
-				<li><a href="#">Coureurs & Team</a></li>
-				<li><a href="#">F1 Kalender</a></li>
-				<li><a href="#">F1 Stand</a></li>
-				<li><a href="#">F1 Tickets</a></li>
-			</ul>
-	<!-- <h2>Volgende race | <time datetime="2021-11-19">19-21 nov</time></h2>	-->
+	<header>
+		<img src="images/gpfans_logo.jpeg" alt="gpfans_logo">
+		<input class="menu-btn" type="checkbox" id="menu-btn" />
+		<label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+			<li><a href="#">Nieuws</a></li>
+			<li><a href="#">Video's</a></li>
+			<li><a href="#">Originals</a></li>
+			<li><a href="#">Coureurs & Team</a></li>
+			<li><a href="#">F1 Kalender</a></li>
+			<li><a href="#">F1 Stand</a></li>
+			<li><a href="#">F1 Tickets</a></li>
+		</ul>
+		<!-- <h2>Volgende race | <time datetime="2021-11-19">19-21 nov</time></h2>	-->
 
-</header>
-<main>
+	</header>
+	<main>
 
-	<section> <!-- Sectie onder de Header inclusief de titel van de volgende race, een timer en een tabel.  SECTIE FIRST-->
-		<div>
+		<section>
+			<!-- Sectie onder de Header inclusief de titel van de volgende race, een timer en een tabel.  SECTIE FIRST-->
 			<div>
-				<h3>Volgende race | 03 - 05 december</h3>
-				<h2>Saudi Arabia</h2>
+				<div>
+					<h2>Saudi Arabia</h2>
+					<h3>Volgende race | 03 - 05 december</h3>
+				</div>
+
+				<div class="aftellen_tot_race">
+					<h2>Aftellen tot race</h2>
+					<h3 id="aftellen">03:02:22:49</h3>
+				</div>
+
+				<div>
+					<img src="images/track.png" alt="track">
+					<table>
+						<tr>
+							<th colspan="3">Timetable</th>
+						</tr>
+						<tr>
+							<td>03-12</td>
+							<td>Training 1/3</td>
+							<td>14:30</td>
+						</tr>
+						<tr>
+							<td>04-12</td>
+							<td>Kwalificatie</td>
+							<td>18:00</td>
+						</tr>
+						<tr>
+							<td>05-12</td>
+							<td>Race</td>
+							<td>18:30</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-	
-			<div class="aftellen_tot_race">
-				<h2>Aftellen tot race</h2>
-				<h3 id="aftellen">03:02:22:49</h3>
-				<p>Dagen Uren Mins Secs</p>
-			</div>
-	
-			<div class="timetable">
-				<img src="images/track.png" alt="track" class="track_image">
-				<table>
-					<tr>
-						<th colspan="3">Timetable</th>
-					</tr>
-					<tr>
-					<td>03-12</td>
-					<td>Training 1/3</td>
-					<td>14:30</td>
-					</tr>
-					<tr>
-						<td>04-12</td>
-						<td>Kwalificatie</td>
-						<td>18:00</td>
-					</tr>
-					<tr>
-						<td>05-12</td>
-						<td>Race</td>
-						<td>18:30</td>
-					</tr>  
-				</table>
-			</div>
-		</div>
-		
-
-	</section>
 
 
-	<section> <!-- Eerste twee grote blokken SECTIE TWEE-->
+		</section>
 
-		<h2 class="titel_pagina">F1 Nieuws</h2>
 
-		<a>
-			<img src="images/vries.jpg" alt="foto nyck de vries" class="grote_foto">
+		<section>
+			<!-- Eerste twee grote blokken SECTIE TWEE-->
+
+			<h2>F1 Nieuws</h2>
+
+			<a>
+				<img src="images/vries.jpg" alt="foto nyck de vries">
 				<p>de vries naar indycar?</p> <!-- uppercase en rood maken in CSS -->
 				<h3>De Vries gaat in december testen in de IndyCar: "Hij is echt een groot talent, een rockster"</h3>
-			<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">	
-		</a>
+				<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">
+			</a>
 
-		<a>
-			<img src="images/horner.jpg" alt="horner" class="grote_foto">
-			<p>Titelstrijd</p> <!-- uppercase en rood maken in CSS -->
-			<h3>Horner over mogelijk titelwinst: “Zou de grootste prestatie ooit van ons zijn”</h3>
-		<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">	
-		</a>
+			<a>
+				<img src="images/horner.jpg" alt="horner">
+				<p>Titelstrijd</p> <!-- uppercase en rood maken in CSS -->
+				<h3>Horner over mogelijk titelwinst: “Zou de grootste prestatie ooit van ons zijn”</h3>
+				<img src="images/clock.svg" alt="icoon tijd" width="15px" height="15px">
+			</a>
 
-	</section>
+		</section>
 
 
-	<section> <!-- SECTIE DRIE TRENDING-->
-		<h2 class="titel_pagina">Trending</h2>
-			<a class="a_trending">
+		<section>
+			<!-- SECTIE DRIE TRENDING-->
+			<h2>Trending</h2>
+			<a>
 				<img src="images/vries.jpg" alt="foto nyck de vries">
 				<div>
 					<p>Honda</p> <!-- uppercase en rood maken in CSS -->
@@ -105,80 +107,347 @@
 				</div>
 			</a>
 
-			<a href="gelijkspel.html" class="a_trending">
+			<a href="gelijkspel.html">
 				<img src="images/ham_vers.jpeg" alt="hamilton en Verstappen">
 				<div>
 					<p>Gelijkspelletje</p> <!-- uppercase en rood maken in CSS -->
 					<h3>Wat gebeurt er als Verstappen en Hamilton volgende week met een gelijke stand eindigen?</h3>
 				</div>
 			</a>
-	</section>
+		</section>
 
-	<h2 class="titel_section_border_bottom"><b>Social</b>posts</h2>	
+		<h2 class="titel_section_border_bottom"><b>Social</b>posts</h2>
 
 
-	<section> <!-- SECTIE VIER LAATSTE NIEUWS-->
-		<h2>Laatste Nieuws</h2>
-		<a>
-			<img src="images/weegschaal.jpeg" alt="weegschaal">
-			<div>
-				<h3>Waarom worden F1-coureurs na iedere race gewogen?</h3>
-				<p>weegschaal</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-		<a>
-			<img src="images/horner-masi.jpeg" alt="horner en masi">
-			<div>
-				<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
-				<p>fia</p> <!-- uppercase en grijs maken in CSS -->
-			</div>
-		</a>
-	</section>
+		<section>
+			<!-- SECTIE VIER LAATSTE NIEUWS-->
+			<h2>Laatste Nieuws</h2>
+			<a>
+				<img src="images/weegschaal.jpeg" alt="weegschaal">
+				<div>
+					<h3>Waarom worden F1-coureurs na iedere race gewogen?</h3>
+					<p>weegschaal</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+			<a>
+				<img src="images/horner-masi.jpeg" alt="horner en masi">
+				<div>
+					<h3>Masi verklaart deal met Red Bull Racing tijdens rode vlag in Djedda</h3>
+					<p>fia</p> <!-- uppercase en grijs maken in CSS -->
+				</div>
+			</a>
+		</section>
 
-</main>
+	</main>
 
-<footer>
+	<footer>
 
-</footer>
 
-	
+		<div>
+			<img src="images/gpfans_logo.jpeg" alt="logo GPFans">
+
+			<ul>
+				<h2>Coureurs</h2>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/charles-leclerc/">Charles Leclerc</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/carlos-sainz/">Carlos Sainz</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/lando-norris/">Lando Norris</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/daniel-ricciardo/">Daniel Ricciardo</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/fernando-alonso/">Fernando Alonso</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/esteban-ocon/">Esteban Ocon</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/sergio-perez/">Sergio Pérez</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/max-verstappen/">Max Verstappen</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/nicholas-latifi/">Nicholas Latifi</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/george-russell/">George Russell</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/valtteri-bottas/">Valtteri Bottas</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/lewis-hamilton/">Lewis Hamilton</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/nikita-mazepin/">Nikita Mazepin</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/mick-schumacher/">Mick Schumacher</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/lance-stroll/">Lance Stroll</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/sebastian-vettel/">Sebastian Vettel</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/antonio-giovinazzi/">Antonio Giovinazzi</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/robert-kubica/">Robert Kubica</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/kimi-raikkonen/">Kimi Raikkonen</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/pierre-gasly/">Pierre Gasly</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-coureurs/yuki-tsunoda/">Yuki Tsunoda</a>
+				</li>
+			</ul>
+
+			<ul>
+				<h2>Teams</h2>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/alfa-romeo-racing-orlen/">Alfa Romeo Racing Orlen</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/alpine/">Alpine</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/aston-martin-cognizant/">Aston Martin Cognizant</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/haas-f1-team/">Haas F1 Team</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/mclaren/">McLaren</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/mercedes-amg-petronas/">Mercedes-AMG Petronas</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/red-bull-racing/">Red Bull Racing</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/scuderia-alphatauri-honda/">Scuderia AlphaTauri
+						Honda</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/scuderia-ferrari/">Scuderia Ferrari</a>
+				</li>
+				<li>
+					<a href="https://www.gpfans.com/nl/f1-teams/williams-racing/">Williams Racing</a>
+				</li>
+			</ul>
+
+			<ul>
+				<h2>Races</h2>
+				<li>
+					<a href="/nl/f1-race-kalender/gulf-air-grand-prix-van-bahrein-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/BH.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/BH.png">Gulf Air Grand Prix van
+						Bahrein 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-china-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/CN.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/CN.png">Grand Prix van China 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/pirelli-gran-premio-del-made-in-italy-e-dell-emilia-romagna-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/IT.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/IT.png">Pirelli Gran Premio Del Made
+						In Italy E Dell'emilia Romagna 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/portugese-grand-prix-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/PT.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/PT.png">Portugese Grand Prix 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-spanje-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/ES.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/ES.png">Grand Prix van Spanje 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-monaco-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/MC.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/MC.png">Grand Prix van Monaco 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-azerbeidzjan-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/AZ.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/AZ.png">Grand Prix van Azerbeidzjan
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-canada-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/CA.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/CA.png">Grand Prix van Canada 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-frankrijk-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/FR.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/FR.png">Grand Prix van Frankrijk
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-oostenrijk-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/AT.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/AT.png">Grand Prix van Oostenrijk
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-groot-brittanie-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/GB.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/GB.png">Grand Prix van Groot
+						Brittanië 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-hongarije-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/HU.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/HU.png">Grand Prix van Hongarije
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-belgie-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/BE.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/BE.png">Grand Prix van België 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/dutch-grand-prix-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/NL.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/NL.png">Dutch Grand Prix 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-italie-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/IT.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/IT.png">Grand Prix van Italië 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/vtb-grand-prix-van-rusland-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/RU.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/RU.png">VTB Grand Prix van Rusland
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-singapore-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/SG.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/SG.png">Grand Prix van Singapore
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/turkish-grand-prix-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/TR.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/TR.png">Turkish Grand Prix 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-japan-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/JP.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/JP.png">Grand Prix van Japan 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-de-verenigde-staten-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/US.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/US.png">Grand Prix van de Verenigde
+						Staten 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-mexico-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/MX.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/MX.png">Grand Prix van Mexico 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-brazilie-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/BR.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/BR.png">Grand Prix van Brazilië 2021
+					</a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/qatar-grand-prix-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/QA.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/QA.png">Qatar Grand Prix 2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-australie-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/AU.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/AU.png">Grand Prix van Australië
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/saudi-arabian-grand-prix-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/SA.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/SA.png">Saudi Arabian Grand Prix
+						2021 </a>
+				</li>
+				<li>
+					<a href="/nl/f1-race-kalender/grand-prix-van-abu-dhabi-2021">
+						<img data-cfsrc="https://www.sportsbase.io/images/national_teams/48/AE.png" alt="flag"
+							src="https://www.sportsbase.io/images/national_teams/48/AE.png">Grand Prix van Abu Dhabi
+						2021 </a>
+				</li>
+			</ul>
+		</div>
+
+
+	</footer>
+
 
 	<script src="scripts/script.js"></script>
+
+
 </body>
-	
+
 </html>

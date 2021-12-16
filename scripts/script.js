@@ -26,3 +26,5 @@ var x = setInterval(function() {
     document.getElementById("aftellen").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
