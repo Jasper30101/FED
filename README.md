@@ -146,6 +146,8 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+ <img src="images/contrast1.png" alt="Contrast analyser nummer 1">
 
 
 #### Titel tweede bevinding. 
@@ -153,13 +155,15 @@ Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-
+<img src="images/contrast2.png" alt="Contrast analyser nummer 2">
+ 
 #### Titel volgende bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
-
+<img src="images/contrast3.png" alt="Contrast analyser nummer 3">
+ 
 #### Titel nog een bevinding. 
 Hier korte omschrijving (met indien nodig een afbeelding)
 
